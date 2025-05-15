@@ -1,0 +1,54 @@
+.employee-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.employee-info {
+  margin-bottom: 20px;
+}
+
+.employee-info p {
+  margin: 10px 0;
+}
+
+.direct-reports {
+  margin-top: 20px;
+}
+
+.direct-reports ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.direct-reports li {
+  padding: 8px;
+  background-color: #eee;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #42b983;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  color: red;
+}

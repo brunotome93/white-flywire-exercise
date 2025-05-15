@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/flywire-frontend/node_modules
+/flywire-frontend/.pnp
+/flywire-frontend.pnp.js
+
+# testing
+/flywire-frontend/coverage
+
+# production
+/flywire-frontend/build
+
+# misc
+/flywire-frontend.DS_Store
+/flywire-frontend.env.local
+/flywire-frontend.env.development.local
+/flywire-frontend.env.test.local
+/flywire-frontend.env.production.local
+
+/flywire-frontendnpm-debug.log*
+/flywire-frontendyarn-debug.log*
+/flywire-frontendyarn-error.log*
+
+
+
+/flywire-backend/.settings
+/flywire-backend/.classpath
+/flywire-backend/.project
+/flywire-backend/target/
+/flywire-backend/bin/

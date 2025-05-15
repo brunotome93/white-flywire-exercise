@@ -41,7 +41,7 @@ The system uses a dual-path data storage approach:
 
 ### 2. Runtime Data File (read-write)
 
-- Default location: ${user.home}/.yourapp/data/data.json
+- Default location: target/classes/data.json
 
 - All runtime modifications go here
 
